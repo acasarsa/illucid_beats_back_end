@@ -36,8 +36,8 @@ module IllucidBeatsBack
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-          origins ‘https://illucid-beats.herokuapp.com’
-          resource ‘*’, headers: :any, methods: [:get, :post, :patch, :delete]
+          origins 'https://illucid-beats.herokuapp.com'
+          resource '*', headers: :any, methods: [:get, :post, :patch, :delete]
       end
     end
   end
